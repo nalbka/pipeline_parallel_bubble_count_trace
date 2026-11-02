@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "nalbka-kgbuild_jd224"
+name = "nalbka-pipeline_parallel_bubble_count_trace"
 version = "0.1.0"
 description = "统计各来源片段的贡献量与占比，标出知识图谱构建工程师·流水线并行气泡比例上最主要的来源"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://nalbka.github.io"
-Repository = "https://github.com/nalbka/kgbuild_jd224"
-Issues = "https://github.com/nalbka/kgbuild_jd224/issues"
+Repository = "https://github.com/nalbka/pipeline_parallel_bubble_count_trace"
+Issues = "https://github.com/nalbka/pipeline_parallel_bubble_count_trace/issues"
 
 [project.scripts]
-kgbuild_jd224 = "kgbuild_jd224:main"
+pipeline_parallel_bubble_count_trace = "pipeline_parallel_bubble_count_trace:main"
 
 [tool.setuptools]
-py-modules = ["kgbuild_jd224"]
+py-modules = ["pipeline_parallel_bubble_count_trace"]
